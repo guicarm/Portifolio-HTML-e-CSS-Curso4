@@ -88,6 +88,19 @@ body{
 }
 .apresentacao__links__link:hover{
     background-color: var(--cor-hover);
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid var(--cor-terciaria);
+    width: 50%;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-secundaria);
 }
 .apresentacao__imagem{
     width: 50%;
